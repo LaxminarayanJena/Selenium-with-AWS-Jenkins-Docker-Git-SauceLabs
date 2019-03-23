@@ -1,0 +1,42 @@
+docker -version
+docker run hello-world
+docker -compose
+docker-compose version
+
+docker system prune -af      //To delete all containers
+docker ps      //show all the running containers
+
+//docker not working then
+
+sudo docker ps     //admin previalages
+sudo service docker restart   
+
+
+//----------------------------------------------docker commands
+
+docker pull image            pulls an image from dockerHub
+docker images                shows  all the images in our machine
+docker ps                    shows all the running containers
+docker ps -a                 shows all the containers including stoppped containers
+docker run image             creates a container from an image
+docker stop containerid/containername       stops a running container
+docker system prune -f     To remove alll the stopped container(dockers dont touch running containers)
+docker system prune -a      to remove all the stopped containers(dockers dont touch running containers)+ unused images
+
+
+
+
+
+---------------------------------------------------
+
+docker run ubuntu
+docker ps -a
+docker run -it ubuntu
+
+Now its able to interact with ubuntu and we can pass date, ls-al comands
+
+docker stop menisky           to stop running image
+
+docker run --name poltu ubuntu
+
+docker run --entrypoint=date ubuntu
