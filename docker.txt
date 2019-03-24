@@ -40,3 +40,12 @@ docker stop menisky           to stop running image
 docker run --name poltu ubuntu
 
 docker run --entrypoint=date ubuntu
+
+------------------------------------------docker port mapping------------------
+docker run -d -p 8050:80 nginx
+docker stop menisky 
+docker system prune -a
+
+-----------------------docker create image---------------
+docker pull alpine
+docker pull busybox
