@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15332" started-at="2019-04-06T18:34:52Z" finished-at="2019-04-06T18:35:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15332" started-at="2019-04-06T18:34:52Z" finished-at="2019-04-06T18:35:08Z">
+      <class name="SauceLabsWeb">
+        <test-method status="PASS" signature="Windows()[pri:0, instance:SauceLabsWeb@192d3247]" name="Windows" duration-ms="14853" started-at="2019-04-06T18:34:53Z" finished-at="2019-04-06T18:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Windows -->
+      </class> <!-- SauceLabsWeb -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

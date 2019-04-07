@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12771" started-at="2019-04-06T16:02:55Z" finished-at="2019-04-06T16:03:08Z">
+  <suite name="Default suite" duration-ms="19995" started-at="2019-04-06T16:17:04Z" finished-at="2019-04-06T16:17:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12771" started-at="2019-04-06T16:02:55Z" finished-at="2019-04-06T16:03:08Z">
-      <class name="SauceLabs">
-        <test-method status="PASS" signature="shouldOpenSafari()[pri:0, instance:SauceLabs@475530b9]" name="shouldOpenSafari" duration-ms="12716" started-at="2019-04-06T16:02:55Z" finished-at="2019-04-06T16:03:08Z">
+    <test name="Default test" duration-ms="19995" started-at="2019-04-06T16:17:04Z" finished-at="2019-04-06T16:17:24Z">
+      <class name="SauceLabsWeb">
+        <test-method status="PASS" signature="Windows()[pri:0, instance:SauceLabsWeb@475530b9]" name="Windows" duration-ms="19949" started-at="2019-04-06T16:17:04Z" finished-at="2019-04-06T16:17:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldOpenSafari -->
-      </class> <!-- SauceLabs -->
+        </test-method> <!-- Windows -->
+      </class> <!-- SauceLabsWeb -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

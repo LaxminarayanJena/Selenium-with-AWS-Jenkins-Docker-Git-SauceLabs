@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import java.net.MalformedURLException;
 import java.net.URL;
  
-public class SauceLabs {
+public class SauceLabsWeb {
     private WebDriver driver;
  
     @Test
@@ -22,7 +22,7 @@ public class SauceLabs {
         capabilities.setCapability("platform", "Windows 10");
         capabilities.setCapability("version", "70");
         capabilities.setCapability("build", "SampleTest");
-        capabilities.setCapability("name", "3rd test");
+        capabilities.setCapability("name", "5th test");
  
        
         /** If you're accessing the EU data center, use the following endpoint:.
