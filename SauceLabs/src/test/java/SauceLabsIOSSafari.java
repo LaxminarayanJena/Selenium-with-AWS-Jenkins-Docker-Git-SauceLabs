@@ -7,7 +7,7 @@ public class SauceLabsIOSSafari {
  
 	  public static final String USERNAME = "seleniumtesterbangalore";
 	  public static final String ACCESS_KEY = "78a65011-b360-41c2-8a00-57fd852a76e5";
-  public static final String URL = "https://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:443/wd/hub";
+      public static final String URL = "https://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:443/wd/hub";
  
     public static void main(String[] args) throws Exception {
  
