@@ -1,17 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19995" started-at="2019-04-06T16:17:04Z" finished-at="2019-04-06T16:17:24Z">
+  <suite name="SearchModule" duration-ms="48219" started-at="2019-04-09T14:42:00Z" finished-at="2019-04-09T14:42:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19995" started-at="2019-04-06T16:17:04Z" finished-at="2019-04-06T16:17:24Z">
-      <class name="SauceLabsWeb">
-        <test-method status="PASS" signature="Windows()[pri:0, instance:SauceLabsWeb@475530b9]" name="Windows" duration-ms="19949" started-at="2019-04-06T16:17:04Z" finished-at="2019-04-06T16:17:24Z">
+    <test name="SearchseleniumTest" duration-ms="31077" started-at="2019-04-09T14:42:00Z" finished-at="2019-04-09T14:42:31Z">
+      <class name="com.searchmodule.test.SearchTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.searchmodule.test.SearchTest@59f99ea]" name="setupDriver" is-config="true" duration-ms="12995" started-at="2019-04-09T14:42:00Z" finished-at="2019-04-09T14:42:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Windows -->
-      </class> <!-- SauceLabsWeb -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchmodule.test.SearchTest@59f99ea]" name="search" duration-ms="17750" started-at="2019-04-09T14:42:13Z" finished-at="2019-04-09T14:42:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.searchmodule.test.SearchTest@59f99ea]" name="quitBrowser" is-config="true" duration-ms="308" started-at="2019-04-09T14:42:31Z" finished-at="2019-04-09T14:42:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.searchmodule.test.SearchTest -->
+    </test> <!-- SearchseleniumTest -->
+    <test name="SearchjavaTest" duration-ms="17086" started-at="2019-04-09T14:42:31Z" finished-at="2019-04-09T14:42:48Z">
+      <class name="com.searchmodule.test.SearchTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.searchmodule.test.SearchTest@f6c48ac]" name="setupDriver" is-config="true" duration-ms="2982" started-at="2019-04-09T14:42:31Z" finished-at="2019-04-09T14:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchmodule.test.SearchTest@f6c48ac]" name="search" duration-ms="13990" started-at="2019-04-09T14:42:34Z" finished-at="2019-04-09T14:42:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.searchmodule.test.SearchTest@f6c48ac]" name="quitBrowser" is-config="true" duration-ms="109" started-at="2019-04-09T14:42:48Z" finished-at="2019-04-09T14:42:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.searchmodule.test.SearchTest -->
+    </test> <!-- SearchjavaTest -->
+  </suite> <!-- SearchModule -->
 </testng-results>

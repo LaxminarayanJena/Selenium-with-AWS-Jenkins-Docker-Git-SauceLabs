@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SearchModule">
+  <test name="SearchseleniumTest">
+  <parameter name="keyword" value="selenium"/>
+    <classes>
+      <class name="com.searchmodule.test.SearchTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="SearchjavaTest">
+  <parameter name="keyword" value="java"/>
+    <classes>
+     <class name="com.searchmodule.test.SearchTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

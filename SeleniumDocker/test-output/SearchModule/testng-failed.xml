@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SearchModule]">
+  <test thread-count="5" name="SearchseleniumTest(failed)">
+    <parameter name="keyword" value="selenium"/>
+    <classes>
+      <class name="com.searchmodule.test.SearchTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="search"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- com.searchmodule.test.SearchTest -->
+    </classes>
+  </test> <!-- SearchseleniumTest(failed) -->
+  <test thread-count="5" name="SearchjavaTest(failed)">
+    <parameter name="keyword" value="java"/>
+    <classes>
+      <class name="com.searchmodule.test.SearchTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="search"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- com.searchmodule.test.SearchTest -->
+    </classes>
+  </test> <!-- SearchjavaTest(failed) -->
+</suite> <!-- Failed suite [SearchModule] -->

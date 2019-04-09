@@ -49,3 +49,30 @@ docker system prune -a
 -----------------------docker create image---------------
 docker pull alpine
 docker pull busybox
+
+
+
+
+-------------------------------------------------------selenium grid with docker-------------------
+
+
+Go to docker.yml directory and run cmd
+docker-compose up
+
+
+
+#### Run on 5 chrome and 5 firefox  
+
+Open window powershell and go to docker-compose.yml location 
+
+use same host&port as mentioned in kinematics
+
+docker-compose down 
+
+docker-compose up -d 
+
+
+docker-compose scale selenium-chrome=4 selenium-firefox=4
+
+
+add portno in kinematic alpha
