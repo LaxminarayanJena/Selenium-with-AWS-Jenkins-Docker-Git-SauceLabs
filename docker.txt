@@ -71,8 +71,6 @@ docker-compose down
 
 docker-compose up -d 
 
-
-docker-compose scale selenium-chrome=4 selenium-firefox=4
-
+docker-compose scale selenium-chrome=2 selenium-firefox=2
 
 add portno in kinematic alpha
