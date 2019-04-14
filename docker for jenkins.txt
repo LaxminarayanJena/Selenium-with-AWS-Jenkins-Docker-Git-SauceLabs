@@ -1,0 +1,15 @@
+
+1)download docker for windows
+2)use linux containers
+3)in settings -memory size 1024 mb and  shared drive-D
+4)d:\\jenkins\\jenkins folder
+
+5)run below commands
+
+docker pull maven:3-alpine
+docker run -p 8082:8082 -p 50000:50000 -v "$PWD/jenkins:/var/jenkins_home" jenkins/jenkins:lts
+
+6)open kitematics and add port no
+
+7)open url-localhost:8083
+

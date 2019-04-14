@@ -19,7 +19,7 @@ public class BaseTest {
         // HUB_HOST => http://192.168.99.100:4444/hostname
 
         String host = "192.168.99.100";
-        DesiredCapabilities dc=DesiredCapabilities.chrome();
+        DesiredCapabilities dc;
 
         if(System.getProperty("BROWSER") != null &&
                 System.getProperty("BROWSER").equalsIgnoreCase("firefox")){

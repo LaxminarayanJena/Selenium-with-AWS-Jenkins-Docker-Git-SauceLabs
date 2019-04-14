@@ -1,3 +1,5 @@
+always compile when u make any changes
+
 mvn clean package -DskipTests
 jar will be created in target folder
 
@@ -6,3 +8,7 @@ go to target folder-
 
 
 java -cp selenium-docker.jar;selenium-docker-tests.jar;libs/* org.testng.TestNG ../SearchModule.xml
+
+
+Firefox-
+java -cp selenium-docker.jar;selenium-docker-tests.jar;libs/* -DBROWSER=firefox org.testng.TestNG ../SearchModule.xml
